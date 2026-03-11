@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DreamCloud Sleep Sack — Dearling.me</title>
+  <meta name="description" content="The sleep sack that changed everything. Zip-in, temperature-regulated, TOG-rated. Trusted by over 1,200 parents.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- PROMO BANNER -->
+  <div class="promo-banner">
+    <span data-i18n="promo">🚚 FREE shipping on orders over $50 &nbsp;|&nbsp;
+    Use <strong>NEWBORN10</strong> for 10% off your first order</span>
+    <button class="promo-close" aria-label="Close">✕</button>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="../index.html" class="logo">Dearling<span>.me</span><small>Premium Baby</small></a>
+        <ul class="nav-links">
+          <li><a href="../index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="shop.html" data-i18n="nav.shop">Shop</a></li>
+          <li><a href="about.html" data-i18n="nav.about">Our Story</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <div class="lang-switcher">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <span class="lang-sep">|</span>
+            <button class="lang-btn" data-lang="de">DE</button>
+          </div>
+          <a href="cart.html" class="cart-btn" aria-label="Shopping cart">
+            🛒 <span class="cart-count"></span>
+          </a>
+          <button class="hamburger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" role="dialog">
+    <button class="mobile-nav-close">✕</button>
+    <ul class="mobile-nav-links">
+      <li><a href="../index.html" data-i18n="nav.home">Home</a></li>
+      <li><a href="shop.html" data-i18n="nav.shop">Shop</a></li>
+      <li><a href="about.html" data-i18n="nav.about">Our Story</a></li>
+      <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+      <li><a href="cart.html">Cart 🛒</a></li>
+    </ul>
+  </div>
+
+  <!-- BREADCRUMB -->
+  <div style="background:var(--cream-dark); border-bottom:1px solid var(--border);">
+    <div class="container" style="padding:0.875rem 1.5rem;">
+      <div class="breadcrumb">
+        <a href="../index.html">Home</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="shop.html">Shop</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="shop.html?cat=sleep">Sleep</a>
+        <span class="breadcrumb-sep">›</span>
+        <span>DreamCloud Sleep Sack</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCT LAYOUT -->
+  <div class="container">
+    <div class="product-layout">
+
+      <!-- ===== GALLERY ===== -->
+      <div class="product-gallery">
+        <div class="gallery-main" id="galleryMain">🌙</div>
+        <div class="gallery-thumbs">
+          <div class="gallery-thumb active" data-emoji="🌙">🌙</div>
+          <div class="gallery-thumb" data-emoji="⭐">⭐</div>
+          <div class="gallery-thumb" data-emoji="🌿">🌿</div>
+          <div class="gallery-thumb" data-emoji="✨">✨</div>
+        </div>
+      </div>
+
+      <!-- ===== PRODUCT DETAILS ===== -->
+      <div class="product-details">
+
+        <div class="prod-category" data-i18n="prod.cat">Sleep &amp; Comfort</div>
+        <h1 class="prod-title">DreamCloud Sleep Sack</h1>
+
+        <div class="prod-rating">
+          <span class="stars">★★★★★</span>
+          <span class="rating-count">4.9 (1,204 reviews)</span>
+          <span class="review-link" data-i18n="prod.readrev" onclick="document.querySelector('[data-tab=reviews]').closest('.tabs-nav').querySelector('[data-tab=reviews]').click()">Read reviews</span>
+        </div>
+
+        <!-- Price -->
+        <div class="prod-price-row">
+          <span class="prod-price-now">$42.99</span>
+          <span class="prod-price-was">$59.99</span>
+          <span class="prod-save-tag" data-i18n="prod.save">Save 28%</span>
+        </div>
+
+        <!-- Urgency -->
+        <div class="urgency-row">
+          <div class="urgency-dot"></div>
+          <span data-i18n="prod.urgency"><strong>Only 8 left</strong> in stock — 23 people viewing right now</span>
+        </div>
+
+        <!-- Size -->
+        <div>
+          <span class="option-label" data-i18n="prod.size">Size — <em style="font-weight:400; color:var(--medium)">TOG 2.5 (18–24 months)</em></span>
+          <div class="size-options">
+            <button class="size-btn">0–6M</button>
+            <button class="size-btn">6–12M</button>
+            <button class="size-btn active">12–18M</button>
+            <button class="size-btn">18–24M</button>
+            <button class="size-btn">2–3Y</button>
+          </div>
+        </div>
+
+        <!-- Colour -->
+        <div>
+          <span class="option-label" data-i18n="prod.colour">Colour — <em style="font-weight:400; color:var(--medium)">Sage Green</em></span>
+          <div class="colour-options">
+            <div class="colour-swatch active" style="background:#7A9E7E" title="Sage Green"></div>
+            <div class="colour-swatch" style="background:#E8DDD0" title="Oat Cream"></div>
+            <div class="colour-swatch" style="background:#C4714A" title="Terracotta"></div>
+            <div class="colour-swatch" style="background:#2A2A2A" title="Midnight"></div>
+            <div class="colour-swatch" style="background:#C5D1ED" title="Sky Blue"></div>
+          </div>
+        </div>
+
+        <!-- Quantity -->
+        <div class="qty-row">
+          <span class="qty-label" data-i18n="prod.qty">Quantity</span>
+          <div class="qty-control">
+            <button class="qty-btn qty-minus">−</button>
+            <span class="qty-num">1</span>
+            <button class="qty-btn qty-plus">+</button>
+          </div>
+        </div>
+
+        <!-- CTAs -->
+        <div class="prod-ctas">
+          <button class="btn btn-primary btn-lg btn-full"
+            data-add-cart="dream-sleep-sack"
+            data-name="DreamCloud Sleep Sack"
+            data-price="42.99"
+            data-emoji="🌙"
+            data-i18n="prod.addcart">
+            🛒 Add to Cart — $42.99
+          </button>
+          <a href="#" class="btn btn-dark btn-lg btn-full" data-i18n="prod.buynow" onclick="alert('Shopify checkout integration goes here')">
+            ⚡ Buy Now
+          </a>
+        </div>
+
+        <!-- Trust Badges -->
+        <div class="prod-trust">
+          <div class="trust-item-sm"><span>🌿</span><span data-i18n="prod.t.bpa">BPA-Free &amp; Non-Toxic</span></div>
+          <div class="trust-item-sm"><span>🛡️</span><span data-i18n="prod.t.cert">CE Safety Certified</span></div>
+          <div class="trust-item-sm"><span>↩️</span><span data-i18n="prod.t.ret">30-Day Free Returns</span></div>
+          <div class="trust-item-sm"><span>🚚</span><span data-i18n="prod.t.ship">Ships in 1–2 Business Days</span></div>
+        </div>
+
+        <!-- Product Tabs -->
+        <div class="product-tabs">
+          <nav class="tabs-nav">
+            <button class="tab-btn active" data-tab="description" data-i18n="prod.tab.desc">Description</button>
+            <button class="tab-btn" data-tab="features" data-i18n="prod.tab.feat">Features</button>
+            <button class="tab-btn" data-tab="reviews" data-i18n="prod.tab.rev">Reviews (1,204)</button>
+            <button class="tab-btn" data-tab="faq" data-i18n="prod.tab.faq">FAQ</button>
+          </nav>
+
+          <!-- Description Tab -->
+          <div class="tab-content active" data-tab="description">
+            <p style="margin-bottom:1rem;">The DreamCloud Sleep Sack is the result of 18 months of testing with real parents and sleep consultants. Designed to replace loose blankets entirely — the leading cause of overnight discomfort — it keeps babies at a perfect temperature all night long.</p>
+            <p style="margin-bottom:1rem;">Made from OEKO-TEX certified organic cotton with a brushed inner lining, it's as soft as a hug. The two-way zip opens from the bottom for easy nappy changes without fully waking your baby.</p>
+            <p>Available in 5 sizes from newborn to 3 years, and 5 colours to match any nursery. Machine washable at 30°C — because life with a baby means washing everything constantly.</p>
+          </div>
+
+          <!-- Features Tab -->
+          <div class="tab-content" data-tab="features">
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem; margin-bottom:1.5rem;">
+              <div style="display:flex; align-items:flex-start; gap:0.75rem; padding:1rem; background:var(--cream); border-radius:var(--radius);">
+                <span style="font-size:1.5rem;">🌡️</span>
+                <div><strong style="font-size:0.875rem; color:var(--dark);">TOG Rated 2.5</strong><p style="font-size:0.8rem; margin-top:0.2rem;">Perfect for 16–20°C room temperature</p></div>
+              </div>
+              <div style="display:flex; align-items:flex-start; gap:0.75rem; padding:1rem; background:var(--cream); border-radius:var(--radius);">
+                <span style="font-size:1.5rem;">🌿</span>
+                <div><strong style="font-size:0.875rem; color:var(--dark);">Organic Cotton</strong><p style="font-size:0.8rem; margin-top:0.2rem;">OEKO-TEX certified, chemical-free</p></div>
+              </div>
+              <div style="display:flex; align-items:flex-start; gap:0.75rem; padding:1rem; background:var(--cream); border-radius:var(--radius);">
+                <span style="font-size:1.5rem;">🤐</span>
+                <div><strong style="font-size:0.875rem; color:var(--dark);">Two-Way Zip</strong><p style="font-size:0.8rem; margin-top:0.2rem;">Bottom-up opening for night nappy changes</p></div>
+              </div>
+              <div style="display:flex; align-items:flex-start; gap:0.75rem; padding:1rem; background:var(--cream); border-radius:var(--radius);">
+                <span style="font-size:1.5rem;">🧺</span>
+                <div><strong style="font-size:0.875rem; color:var(--dark);">Machine Washable</strong><p style="font-size:0.8rem; margin-top:0.2rem;">30°C gentle wash, tumble dry low</p></div>
+              </div>
+              <div style="display:flex; align-items:flex-start; gap:0.75rem; padding:1rem; background:var(--cream); border-radius:var(--radius);">
+                <span style="font-size:1.5rem;">📐</span>
+                <div><strong style="font-size:0.875rem; color:var(--dark);">5 Sizes</strong><p style="font-size:0.8rem; margin-top:0.2rem;">Newborn through 3 years</p></div>
+              </div>
+              <div style="display:flex; align-items:flex-start; gap:0.75rem; padding:1rem; background:var(--cream); border-radius:var(--radius);">
+                <span style="font-size:1.5rem;">🛡️</span>
+                <div><strong style="font-size:0.875rem; color:var(--dark);">Safety Certified</strong><p style="font-size:0.8rem; margin-top:0.2rem;">Meets EN 16781 European safety standard</p></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reviews Tab -->
+          <div class="tab-content" data-tab="reviews">
+            <div class="review-summary">
+              <div class="review-avg">
+                <div class="review-avg-num">4.9</div>
+                <div class="stars" style="font-size:1rem;">★★★★★</div>
+                <div class="rating-count" style="margin-top:0.25rem;">1,204 reviews</div>
+              </div>
+              <div class="review-bars">
+                <div class="bar-row"><span>5★</span><div class="bar-track"><div class="bar-fill" style="width:92%"></div></div><span>92%</span></div>
+                <div class="bar-row"><span>4★</span><div class="bar-track"><div class="bar-fill" style="width:6%"></div></div><span>6%</span></div>
+                <div class="bar-row"><span>3★</span><div class="bar-track"><div class="bar-fill" style="width:1%"></div></div><span>1%</span></div>
+                <div class="bar-row"><span>2★</span><div class="bar-track"><div class="bar-fill" style="width:0.5%"></div></div><span>0%</span></div>
+                <div class="bar-row"><span>1★</span><div class="bar-track"><div class="bar-fill" style="width:0.5%"></div></div><span>0%</span></div>
+              </div>
+            </div>
+
+            <div class="review-list">
+              <div class="review-item">
+                <div class="review-header">
+                  <span class="stars">★★★★★</span>
+                  <span class="reviewer-name">Sarah M.</span>
+                  <span class="verified-tag">✓ Verified</span>
+                  <span class="review-date">Jan 2025</span>
+                </div>
+                <div class="review-title">Completely transformed our nights</div>
+                <p class="review-body">My daughter went from waking every 2 hours to sleeping a full 7-hour stretch in week one. I've told every parent I know. The quality is excellent — it's been washed 30+ times and still looks brand new.</p>
+              </div>
+              <div class="review-item">
+                <div class="review-header">
+                  <span class="stars">★★★★★</span>
+                  <span class="reviewer-name">Tom R.</span>
+                  <span class="verified-tag">✓ Verified</span>
+                  <span class="review-date">Dec 2024</span>
+                </div>
+                <div class="review-title">Worth every penny</div>
+                <p class="review-body">We were sceptical at first — it felt expensive compared to random ones on Amazon. But the fit is perfect, the zip is smooth, and you can tell it's well-made. Our son is so much more comfortable and sleeps better for it.</p>
+              </div>
+              <div class="review-item">
+                <div class="review-header">
+                  <span class="stars">★★★★★</span>
+                  <span class="reviewer-name">Priya K.</span>
+                  <span class="verified-tag">✓ Verified</span>
+                  <span class="review-date">Nov 2024</span>
+                </div>
+                <div class="review-title">Perfect for our hot sleeper</div>
+                <p class="review-body">We have a baby who runs hot and I was worried the 2.5 TOG would be too much. It's not — the breathable cotton keeps her perfectly regulated. The size chart is accurate too, something I can't say for most baby products.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Tab -->
+          <div class="tab-content" data-tab="faq">
+            <div class="faq-item">
+              <div class="faq-q">What TOG rating should I choose? <i class="faq-icon">▾</i></div>
+              <div class="faq-a"><p>TOG 2.5 is suitable for room temperatures of 16–20°C (61–68°F). For warmer rooms (20–24°C), choose our 1.0 TOG. For cooler environments or winter nights, our 3.5 TOG is ideal. The most important rule: never add extra layers on top of the sleep sack.</p></div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q">How do I choose the right size? <i class="faq-icon">▾</i></div>
+              <div class="faq-a"><p>Size by your baby's current weight, not age. The sleep sack should be roomy enough to allow leg movement but not so large that baby can slip down inside. Use our size chart above — when in doubt, size up for growing room.</p></div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q">Is this suitable from birth? <i class="faq-icon">▾</i></div>
+              <div class="faq-a"><p>Yes — our 0–6M size is suitable from birth (minimum 7lbs / 3.2kg). We recommend pairing with a swaddle for the first 0–8 weeks, then transitioning to the sleep sack once they start showing startle reflexes.</p></div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q">How do I wash it? <i class="faq-icon">▾</i></div>
+              <div class="faq-a"><p>Machine wash at 30°C on a gentle cycle with similar colours. Tumble dry on low or air dry flat. Do not bleach or iron. The zip can be protected during washing by zipping it closed before putting it in the machine.</p></div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q">What is your returns policy? <i class="faq-icon">▾</i></div>
+              <div class="faq-a"><p>We offer a 30-day no-questions-asked return policy. If you're not happy for any reason — wrong size, changed your mind, baby outgrew it already — contact us and we'll arrange a free return label.</p></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RELATED PRODUCTS -->
+  <section class="section why-bg" style="margin-top:3rem;">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow" data-i18n="prod.related.ey">You might also love</span>
+        <h2 data-i18n="prod.related.h2">Complete the sleep setup</h2>
+      </div>
+      <div class="grid-4">
+        <div class="product-card">
+          <div class="product-card-img" style="background:linear-gradient(135deg,#F5E8F8,#D9B8E8);">🔊<button class="product-card-wish">🤍</button></div>
+          <div class="product-card-body">
+            <div class="card-category" data-i18n="card.cat.sleep">Sleep</div>
+            <a href="product.html"><div class="card-name">WiseOwl White Noise Machine</div></a>
+            <div class="card-rating"><span class="stars">★★★★★</span><span class="rating-count">(963)</span></div>
+            <div class="product-card-footer">
+              <div class="card-price"><span class="price-now">$48.99</span><span class="price-was">$69.99</span></div>
+              <button class="add-cart-btn" data-add-cart="wiseowl-noise" data-name="WiseOwl White Noise Machine" data-price="48.99" data-emoji="🔊">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card-img" style="background:linear-gradient(135deg,#FDE8E8,#F0B8B8);">🌸<button class="product-card-wish">🤍</button></div>
+          <div class="product-card-body">
+            <div class="card-category" data-i18n="card.cat.wear">Clothing</div>
+            <a href="product.html"><div class="card-name">PureSoft Swaddle Set (3-pack)</div></a>
+            <div class="card-rating"><span class="stars">★★★★★</span><span class="rating-count">(711)</span></div>
+            <div class="product-card-footer">
+              <div class="card-price"><span class="price-now">$22.99</span><span class="price-was">$34.99</span></div>
+              <button class="add-cart-btn" data-add-cart="puresoft-swaddle" data-name="PureSoft Swaddle Set" data-price="22.99" data-emoji="🌸">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card-img" style="background:linear-gradient(135deg,#E8F0FF,#B0C4FF);">📷<button class="product-card-wish">🤍</button></div>
+          <div class="product-card-body">
+            <div class="card-category" data-i18n="card.cat.safety">Safety</div>
+            <a href="product.html"><div class="card-name">SmartEye WiFi Baby Monitor</div></a>
+            <div class="card-rating"><span class="stars">★★★★★</span><span class="rating-count">(1,047)</span></div>
+            <div class="product-card-footer">
+              <div class="card-price"><span class="price-now">$89.99</span><span class="price-was">$129.99</span></div>
+              <button class="add-cart-btn" data-add-cart="smarteye-monitor" data-name="SmartEye WiFi Baby Monitor" data-price="89.99" data-emoji="📷">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card-img" style="background:linear-gradient(135deg,#E8F5E0,#BFDEAA);">🎨<button class="product-card-wish">🤍</button></div>
+          <div class="product-card-body">
+            <div class="card-category" data-i18n="card.cat.play">Play</div>
+            <a href="product.html"><div class="card-name">Glow &amp; Grow Sensory Mat</div></a>
+            <div class="card-rating"><span class="stars">★★★★☆</span><span class="rating-count">(389)</span></div>
+            <div class="product-card-footer">
+              <div class="card-price"><span class="price-now">$54.99</span><span class="price-was">$69.99</span></div>
+              <button class="add-cart-btn" data-add-cart="glow-grow-mat" data-name="Glow & Grow Sensory Mat" data-price="54.99" data-emoji="🎨">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">Dearling<span>.me</span></div>
+          <p data-i18n="footer.tagline">Premium baby essentials for the moments that matter most.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn">📸</a><a href="#" class="social-btn">🎵</a>
+            <a href="#" class="social-btn">👥</a><a href="#" class="social-btn">📌</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.shop">Shop</h4>
+          <ul class="footer-links">
+            <li><a href="shop.html" data-i18n="footer.all">All Products</a></li>
+            <li><a href="shop.html?cat=sleep" data-i18n="cat.sleep">Sleep &amp; Comfort</a></li>
+            <li><a href="shop.html?cat=feed" data-i18n="cat.feed">Feeding</a></li>
+            <li><a href="shop.html?cat=play" data-i18n="cat.play">Play &amp; Learn</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.help">Help</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html" data-i18n="footer.contactus">Contact Us</a></li>
+            <li><a href="#" data-i18n="footer.returns">Returns</a></li>
+            <li><a href="#" data-i18n="footer.shipping">Shipping</a></li>
+            <li><a href="#" data-i18n="footer.faq">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact">Contact</h4>
+          <div class="footer-contact-item"><span>✉️</span><span data-i18n="footer.chat">hello@dearling.me</span></div>
+          <div class="footer-contact-item"><span>💬</span><span data-i18n="footer.dispatch">Live chat: Mon–Fri 9am–6pm</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copy">© 2025 Dearling.me · All rights reserved</p>
+        <div class="payment-icons">
+          <span class="pay-icon">VISA</span><span class="pay-icon">MC</span>
+          <span class="pay-icon">PayPal</span><span class="pay-icon">Apple Pay</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/i18n.js"></script>
+</body>
+</html>

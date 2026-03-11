@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dearling.me — Premium Baby Products</title>
+  <meta name="description" content="Beautifully designed, safety-tested baby essentials. Sleep, feeding, bath, and play products parents trust.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- PROMO BANNER -->
+  <div class="promo-banner">
+    <span data-i18n="promo">🚚 FREE shipping on orders over $50 &nbsp;|&nbsp; Use <strong>NEWBORN10</strong> for 10% off your first order</span>
+    <button class="promo-close" aria-label="Close">✕</button>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="logo">Dearling<span>.me</span><small>Premium Baby</small></a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
+          <li><a href="pages/shop.html" data-i18n="nav.shop">Shop</a></li>
+          <li><a href="pages/about.html" data-i18n="nav.about">Our Story</a></li>
+          <li><a href="pages/contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <div class="lang-switcher">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <span class="lang-sep">|</span>
+            <button class="lang-btn" data-lang="de">DE</button>
+          </div>
+          <a href="pages/cart.html" class="cart-btn" aria-label="Shopping cart">
+            🛒 <span class="cart-count"></span>
+          </a>
+          <button class="hamburger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" role="dialog" aria-label="Mobile menu">
+    <button class="mobile-nav-close" aria-label="Close menu">✕</button>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+      <li><a href="pages/shop.html" data-i18n="nav.shop">Shop</a></li>
+      <li><a href="pages/about.html" data-i18n="nav.about">Our Story</a></li>
+      <li><a href="pages/contact.html" data-i18n="nav.contact">Contact</a></li>
+      <li><a href="pages/cart.html">Cart 🛒</a></li>
+    </ul>
+  </div>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-tag" data-i18n="hero.tag">✨ Trusted by 10,000+ happy families</div>
+          <h1 data-i18n="hero.h1">Every little moment <em>deserves</em> the best</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">Premium baby essentials — safety-tested, beautifully made, designed for the real moments of parenthood.</p>
+          <div class="hero-ctas">
+            <a href="pages/shop.html" class="btn btn-primary btn-lg" data-i18n="hero.cta1">Shop All Products →</a>
+            <a href="pages/about.html" class="btn btn-secondary btn-lg" data-i18n="hero.cta2">Our Story</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-num" data-i18n="hero.stat1.num">10k+</span>
+              <span class="stat-label" data-i18n="hero.stat1.label">Families</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-i18n="hero.stat2.num">4.9★</span>
+              <span class="stat-label" data-i18n="hero.stat2.label">Avg Rating</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-i18n="hero.stat3.num">30-Day</span>
+              <span class="stat-label" data-i18n="hero.stat3.label">Returns</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-img-wrap">🌙</div>
+          <div class="hero-float card-1">
+            <div class="float-icon">⭐</div>
+            <div>
+              <div class="float-title" data-i18n="hero.f1.title">4.9 / 5 Rating</div>
+              <div class="float-sub" data-i18n="hero.f1.sub">From 2,847 reviews</div>
+            </div>
+          </div>
+          <div class="hero-float card-2">
+            <div class="float-icon">🛡️</div>
+            <div>
+              <div class="float-title" data-i18n="hero.f2.title">Safety Certified</div>
+              <div class="float-sub" data-i18n="hero.f2.sub">BPA-free & tested</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-items">
+        <div class="trust-item"><span>🚚</span><span data-i18n="trust.ship">Free Shipping $50+</span></div>
+        <div class="trust-item"><span>🛡️</span><span data-i18n="trust.safety">Safety Certified</span></div>
+        <div class="trust-item"><span>🌿</span><span data-i18n="trust.bpa">BPA-Free Materials</span></div>
+        <div class="trust-item"><span>↩️</span><span data-i18n="trust.returns">30-Day Easy Returns</span></div>
+        <div class="trust-item"><span>💬</span><span data-i18n="trust.support">24/7 Support</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== CATEGORIES ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow" data-i18n="cat.eyebrow">Browse by Category</span>
+        <h2 data-i18n="cat.h2">Everything baby needs</h2>
+        <p data-i18n="cat.sub">Curated collections for every stage of your little one's journey</p>
+      </div>
+      <div class="grid-3" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
+        <a href="pages/shop.html?cat=sleep" class="category-card">
+          <div class="category-img cat-sleep">🌙</div>
+          <div class="category-body">
+            <div class="category-name" data-i18n="cat.sleep">Sleep & Comfort</div>
+            <div class="category-sub" data-i18n="cat.sleep.n">18 products</div>
+          </div>
+        </a>
+        <a href="pages/shop.html?cat=bath" class="category-card">
+          <div class="category-img cat-bath">🛁</div>
+          <div class="category-body">
+            <div class="category-name" data-i18n="cat.bath">Bath & Care</div>
+            <div class="category-sub" data-i18n="cat.bath.n">12 products</div>
+          </div>
+        </a>
+        <a href="pages/shop.html?cat=feed" class="category-card">
+          <div class="category-img cat-feed">🍼</div>
+          <div class="category-body">
+            <div class="category-name" data-i18n="cat.feed">Feeding</div>
+            <div class="category-sub" data-i18n="cat.feed.n">24 products</div>
+          </div>
+        </a>
+        <a href="pages/shop.html?cat=play" class="category-card">
+          <div class="category-img cat-play">🎨</div>
+          <div class="category-body">
+            <div class="category-name" data-i18n="cat.play">Play & Learn</div>
+            <div class="category-sub" data-i18n="cat.play.n">31 products</div>
+          </div>
+        </a>
+        <a href="pages/shop.html?cat=travel" class="category-card">
+          <div class="category-img cat-travel">🎒</div>
+          <div class="category-body">
+            <div class="category-name" data-i18n="cat.travel">On the Go</div>
+            <div class="category-sub" data-i18n="cat.travel.n">15 products</div>
+          </div>
+        </a>
+        <a href="pages/shop.html?cat=wear" class="category-card">
+          <div class="category-img cat-wear">🌸</div>
+          <div class="category-body">
+            <div class="category-name" data-i18n="cat.wear">Clothing & Swaddles</div>
+            <div class="category-sub" data-i18n="cat.wear.n">22 products</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURED PRODUCTS ===================== -->
+  <section class="section why-bg">
+    <div class="container">
+      <div class="section-header flex-between">
+        <div>
+          <span class="eyebrow" data-i18n="best.eyebrow">Bestsellers</span>
+          <h2 data-i18n="best.h2">Parents can't get enough</h2>
+        </div>
+        <a href="pages/shop.html" class="btn btn-secondary" style="flex-shrink:0" data-i18n="best.viewall">View All →</a>
+      </div>
+      <div class="grid-4">
+
+        <div class="product-card">
+          <div class="product-card-img" style="background:linear-gradient(135deg,#E8EDF8,#C5D1ED);">🌙
+            <div class="product-card-badges"><span class="badge badge-sale">Bestseller</span></div>
+            <button class="product-card-wish">🤍</button>
+          </div>
+          <div class="product-card-body">
+            <div class="card-category" data-i18n="card.cat.sleep">Sleep</div>
+            <a href="pages/product.html"><div class="card-name">DreamCloud Sleep Sack</div></a>
+            <div class="card-rating"><span class="stars">★★★★★</span><span class="rating-count">(1,204)</span></div>
+            <div class="product-card-footer">
+              <div class="card-price"><span class="price-now">$42.99</span><span class="price-was">$59.99</span></div>
+              <button class="add-cart-btn" data-add-cart="dream-sleep-sack" data-name="DreamCloud Sleep Sack" data-price="42.99" data-emoji="🌙">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img" style="background:linear-gradient(135deg,#FEF0E0,#F5D4A8);">🍼
+            <div class="product-card-badges"><span class="badge badge-new">New</span></div>
+            <button class="product-card-wish">🤍</button>
+          </div>
+          <div class="product-card-body">
+            <div class="card-category" data-i18n="card.cat.feed">Feeding</div>
+            <a href="pages/product.html"><div class="card-name">SootheSip Suction Bowl Set</div></a>
+            <div class="card-rating"><span class="stars">★★★★★</span><span class="rating-count">(874)</span></div>
+            <div class="product-card-footer">
+              <div class="card-price"><span class="price-now">$28.99</span><span class="price-was">$39.99</span></div>
+              <button class="add-cart-btn" data-add-cart="soothe-sip-bowl" data-name="SootheSip Suction Bowl Set" data-price="28.99" data-emoji="🍼">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img" style="background:linear-gradient(135deg,#D9F0F4,#A8D8E0);">🛁
+            <div class="product-card-badges"><span class="badge badge-sage">Top Rated</span></div>
+            <button class="product-card-wish">🤍</button>
+          </div>
+          <div class="product-card-body">
+            <div class="card-category" data-i18n="card.cat.bath">Bath</div>
+            <a href="pages/product.html"><div class="card-name">TinyTraveller Foldable Bath</div></a>
+            <div class="card-rating"><span class="stars">★★★★★</span><span class="rating-count">(542)</span></div>
+            <div class="product-card-footer">
+              <div class="card-price"><span class="price-now">$34.99</span><span class="price-was">$49.99</span></div>
+              <button class="add-cart-btn" data-add-cart="tiny-traveller-bath" data-name="TinyTraveller Foldable Bath" data-price="34.99" data-emoji="🛁">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img" style="background:linear-gradient(135deg,#E8F5E0,#BFDEAA);">🎨
+            <div class="product-card-badges"><span class="badge badge-terra">20% Off</span></div>
+            <button class="product-card-wish">🤍</button>
+          </div>
+          <div class="product-card-body">
+            <div class="card-category" data-i18n="card.cat.play">Play</div>
+            <a href="pages/product.html"><div class="card-name">Glow &amp; Grow Sensory Mat</div></a>
+            <div class="card-rating"><span class="stars">★★★★☆</span><span class="rating-count">(389)</span></div>
+            <div class="product-card-footer">
+              <div class="card-price"><span class="price-now">$54.99</span><span class="price-was">$69.99</span></div>
+              <button class="add-cart-btn" data-add-cart="glow-grow-mat" data-name="Glow & Grow Sensory Mat" data-price="54.99" data-emoji="🎨">+</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY US ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow" data-i18n="why.eyebrow">Why Dearling.me</span>
+        <h2 data-i18n="why.h2">Made with parents in mind</h2>
+        <p data-i18n="why.sub">We obsess over the details so you don't have to worry about them</p>
+      </div>
+      <div class="grid-4">
+        <div class="why-card">
+          <div class="why-icon">🛡️</div>
+          <div class="why-title" data-i18n="why.s.title">Safety First</div>
+          <div class="why-desc" data-i18n="why.s.desc">Every product passes rigorous safety testing. BPA-free, CE certified, and parent-approved before it ever reaches you.</div>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🌿</div>
+          <div class="why-title" data-i18n="why.n.title">Natural Materials</div>
+          <div class="why-desc" data-i18n="why.n.desc">We source organic, non-toxic materials. Because your baby's skin deserves nothing but the gentlest touch.</div>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">↩️</div>
+          <div class="why-title" data-i18n="why.r.title">30-Day Returns</div>
+          <div class="why-desc" data-i18n="why.r.desc">Not happy? Send it back for free. No questions asked. We stand 100% behind every product we sell.</div>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">💬</div>
+          <div class="why-title" data-i18n="why.p.title">Parent Support</div>
+          <div class="why-desc" data-i18n="why.p.desc">Real parents on our support team who understand the midnight panics. We're here whenever you need us.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="section why-bg">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow" data-i18n="test.eyebrow">What Parents Say</span>
+        <h2 data-i18n="test.h2">10,000 families can't be wrong</h2>
+        <p data-i18n="test.sub">Real reviews from real parents — unfiltered and unedited</p>
+      </div>
+      <div class="grid-3">
+        <div class="testimonial-card">
+          <div class="test-rating">★★★★★</div>
+          <p class="test-text" data-i18n="test.1.text">"The sleep sack has been life-changing. My daughter went from waking every 2 hours to sleeping a full 7-hour stretch in week one."</p>
+          <div class="test-author">
+            <div class="author-av">S</div>
+            <div>
+              <div class="author-name" data-i18n="test.1.name">Sarah M.</div>
+              <div class="author-meta" data-i18n="test.1.meta">Mum of 1 · Verified Purchase</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="test-rating">★★★★★</div>
+          <p class="test-text" data-i18n="test.2.text">"Finally a suction bowl that actually sticks! The SootheSip bowl does not move. Brilliant."</p>
+          <div class="test-author">
+            <div class="author-av">J</div>
+            <div>
+              <div class="author-name" data-i18n="test.2.name">James K.</div>
+              <div class="author-meta" data-i18n="test.2.meta">Dad of 2 · Verified Purchase</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="test-rating">★★★★★</div>
+          <p class="test-text" data-i18n="test.3.text">"I was sceptical about paying more for a baby bath, but the foldable design is genius. Worth every penny."</p>
+          <div class="test-author">
+            <div class="author-av">A</div>
+            <div>
+              <div class="author-name" data-i18n="test.3.name">Anika P.</div>
+              <div class="author-meta" data-i18n="test.3.meta">Mum of twins · Verified Purchase</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="section newsletter text-center">
+    <div class="container">
+      <span class="eyebrow" data-i18n="news.eyebrow">Join the family</span>
+      <h2 data-i18n="news.h2">Get 10% off your first order</h2>
+      <p style="color:rgba(255,255,255,0.8)" data-i18n="news.sub">Plus parenting tips, product launches, and exclusive offers — no spam ever.</p>
+      <form class="newsletter-form" novalidate>
+        <input type="email" class="newsletter-input" data-i18n-ph="news.ph" placeholder="your@email.com" required>
+        <button type="submit" class="newsletter-btn" data-i18n="news.btn">Claim 10% Off</button>
+      </form>
+      <p class="newsletter-note" data-i18n="news.note">🔒 Your email is safe with us. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">Dearling<span>.me</span></div>
+          <p data-i18n="footer.tagline">Premium baby essentials for the moments that matter most.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn">📸</a><a href="#" class="social-btn">🎵</a>
+            <a href="#" class="social-btn">👥</a><a href="#" class="social-btn">📌</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.shop">Shop</h4>
+          <ul class="footer-links">
+            <li><a href="pages/shop.html" data-i18n="footer.all">All Products</a></li>
+            <li><a href="pages/shop.html?cat=sleep" data-i18n="cat.sleep">Sleep &amp; Comfort</a></li>
+            <li><a href="pages/shop.html?cat=feed" data-i18n="cat.feed">Feeding</a></li>
+            <li><a href="pages/shop.html?cat=play" data-i18n="cat.play">Play &amp; Learn</a></li>
+            <li><a href="pages/shop.html?cat=bath" data-i18n="cat.bath">Bath &amp; Care</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.help">Help</h4>
+          <ul class="footer-links">
+            <li><a href="pages/contact.html" data-i18n="footer.contactus">Contact Us</a></li>
+            <li><a href="#" data-i18n="footer.returns">Returns &amp; Refunds</a></li>
+            <li><a href="#" data-i18n="footer.shipping">Shipping Info</a></li>
+            <li><a href="#" data-i18n="footer.sizes">Size Guides</a></li>
+            <li><a href="#" data-i18n="footer.faq">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact">Contact</h4>
+          <div class="footer-contact-item"><span>✉️</span><span>hello@dearling.me</span></div>
+          <div class="footer-contact-item"><span>💬</span><span data-i18n="footer.chat">Live chat: Mon–Fri 9am–6pm</span></div>
+          <div class="footer-contact-item"><span>🚚</span><span data-i18n="footer.dispatch">Orders dispatched in 1–2 days</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copy">© 2025 Dearling.me · All rights reserved</p>
+        <div class="payment-icons">
+          <span class="pay-icon">VISA</span><span class="pay-icon">MC</span>
+          <span class="pay-icon">AMEX</span><span class="pay-icon">PayPal</span>
+          <span class="pay-icon">Apple Pay</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js"></script>
+</body>
+</html>
