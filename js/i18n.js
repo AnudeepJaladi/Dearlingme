@@ -16,6 +16,7 @@ const translations = {
     'nav.shop':    'Shop',
     'nav.about':   'Our Story',
     'nav.contact': 'Contact',
+    'nav.account': 'My Account',
 
     // Promo banner
     'promo': '🚚 FREE shipping on orders over $50 &nbsp;|&nbsp; Use <strong>NEWBORN10</strong> for 10% off your first order',
@@ -295,6 +296,7 @@ const translations = {
     'nav.shop':    'Shop',
     'nav.about':   'Unsere Geschichte',
     'nav.contact': 'Kontakt',
+    'nav.account': 'Mein Konto',
 
     // Promo banner
     'promo': '🚚 KOSTENLOSER Versand ab 50 € &nbsp;|&nbsp; Code <strong>NEWBORN10</strong> für 10 % Rabatt auf deine erste Bestellung',
