@@ -16,18 +16,18 @@
 |---|------|-------|--------|-----------|-------|
 | 1 | Buy domain `dearling.me` via Namecheap | 👤 | ✅ | — | ~$12/yr |
 | 2 | Create Shopify account (Basic plan) | 👤 | ✅ | — | ~$39/mo |
-| 3 | Set up business email `hello@dearling.me` | 👤 | ✅ | #1 | Microsoft 365 Essentials via GoDaddy |
+| 3 | Set up business email `info@dearlingme.com` | 👤 | ✅ | #1 | Microsoft 365 Essentials via GoDaddy |
 | 4 | Open business bank account (or Wise) | 👤 | ✅ | — | Wise is free |
 | 5 | Connect Stripe + PayPal to Shopify | 👤 | ✅ | #2, #4 | In Shopify > Payments |
-| 6 | Push code to GitHub & deploy to Vercel | 👤 | ⬜ | — | Free on Vercel |
-| 7 | Connect domain to Vercel | 👤 | ⬜ | #1, #6 | In Vercel dashboard |
+| 6 | Push code to GitHub & deploy to Vercel | 👤 | ✅ | — | Free on Vercel |
+| 7 | Connect domain to Vercel | 👤 | ✅ | #1, #6 | In Vercel dashboard |
 | 8 | Add legal pages to Shopify (Privacy, Terms, Refund) | 🤖 | ✅ | #2 | Claude generates, you publish |
 
 ### Phase 1 Checkpoint ✅
-- [ ] Website is live at dearling.me
-- [ ] Shopify store is set up
-- [ ] Business email works
-- [ ] Stripe + PayPal connected
+- [x] Website is live at dearling.me
+- [x] Shopify store is set up
+- [x] Business email works
+- [x] Stripe + PayPal connected
 
 ---
 
@@ -89,7 +89,7 @@
 
 ### Phase 4 Checkpoint ✅
 - [ ] Newsletter signup captures real emails into Klaviyo
-- [ ] Contact form sends emails to hello@dearling.me
+- [ ] Contact form sends emails to info@dearlingme.com
 - [ ] Welcome sequence activated
 - [ ] Abandoned cart email activated
 - [ ] Post-purchase review email activated
